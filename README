@@ -1,0 +1,7 @@
+One of the good implementations I experienced which is still at a nacent stage in building it's English dictionary is the Lemmagen.
+Extremely efficient, pretty good algorithms used and easily portable via platform invokes / c-library.
+Completely written in native C++ without using any external libraries.
+I have written a python-usable exposed makefile and other stuff which creates a shared object of this project when complied and exposes its lemmatization functions to the python interpreter. The code for which can be found HERE.
+
+The project URL is http://lemmatise.ijs.si
+
